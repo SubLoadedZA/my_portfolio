@@ -2,16 +2,16 @@ import Image from "next/image";
 
 function Skills() {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
+    <div id="skills" className="w-full p-2 lg:h-screen">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <h2 className="uppercase tracking-widest text-teal-700 py-10">
+        <h2 className="py-10 tracking-widest text-teal-700 uppercase">
           Skills
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 ">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
                   width="64px"
                   height="64px"
@@ -24,10 +24,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/css.png?raw=true"
                   width="64px"
                   height="64px"
@@ -40,10 +40,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/html.png?raw=true"
                   width="64px"
                   height="64px"
@@ -56,10 +56,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/javascript.png?raw=true"
                   width="64px"
                   height="64px"
@@ -72,10 +72,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/github1.png?raw=true"
                   width="64px"
                   height="64px"
@@ -88,10 +88,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/node.png?raw=true"
                   width="64px"
                   height="64px"
@@ -104,10 +104,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/react.png?raw=true"
                   width="64px"
                   height="64px"
@@ -120,10 +120,10 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 shadow-xl rounded-full hover:scale-105 ease-in duration-200">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <img
+                <Image
                   src="https://github.com/fireclint/portfolio-nextjs/blob/main/public/assets/skills/tailwind.png?raw=true"
                   width="64px"
                   height="64px"
