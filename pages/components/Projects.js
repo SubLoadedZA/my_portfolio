@@ -5,11 +5,11 @@ function Projects() {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h2 className="uppercase tracking-widest text-teal-700 p-10">
+        <h2 className="p-10 tracking-widest text-teal-700 uppercase">
           Projects
         </h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl p-4 rounded-xl group hover:bg-gradient-to-r from-teal-600 to-teal-800">
+        <div className="grid gap-8 md:grid-cols-2">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl rounded-xl group hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
               src="/../public/assets/projects/traffic.gif"
@@ -21,16 +21,16 @@ function Projects() {
               <h3 className="text-2xl tracking-wider text-center">
                 AI Traffic System
               </h3>
-              <p className="pb-4 pt-2 text-center">Python</p>
+              <p className="pt-2 pb-4 text-center">Python</p>
               <Link href="/AiTraffic">
-                <p className="text-center py-3 rounded-lg bg-white text-lg font-bold cursor-pointer text-teal-700 ">
+                <p className="py-3 text-lg font-bold text-center text-teal-700 bg-white rounded-lg cursor-pointer ">
                   More
                 </p>
               </Link>
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl p-4 group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
               src="/../public/assets/projects/movie.png"
@@ -42,16 +42,16 @@ function Projects() {
               <h3 className="text-2xl tracking-wider text-center">
                 Movies Library
               </h3>
-              <p className="pb-4 pt-2 text-center">JavaScript</p>
+              <p className="pt-2 pb-4 text-center">JavaScript</p>
               <Link href="/Movies">
-                <p className="text-center py-3 rounded-lg bg-white text-lg font-bold cursor-pointer text-teal-700 ">
+                <p className="py-3 text-lg font-bold text-center text-teal-700 bg-white rounded-lg cursor-pointer ">
                   More
                 </p>
               </Link>
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl p-4 group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
               src="/../public/assets/projects/products.png"
@@ -63,16 +63,16 @@ function Projects() {
               <h3 className="text-2xl tracking-wider text-center">
                 Products Webpage
               </h3>
-              <p className="pb-4 pt-2 text-center">Python-Django</p>
+              <p className="pt-2 pb-4 text-center">Python-Django</p>
               <Link href="/">
-                <p className="text-center py-3 rounded-lg bg-white text-lg font-bold cursor-pointer text-teal-700 ">
+                <p className="py-3 text-lg font-bold text-center text-teal-700 bg-white rounded-lg cursor-pointer ">
                   More
                 </p>
               </Link>
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl p-4 group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
               src="/../public/assets/projects/canser.png"
@@ -84,9 +84,9 @@ function Projects() {
               <h3 className="text-2xl tracking-wider text-center">
                 AI Cancer Prediction
               </h3>
-              <p className="pb-4 pt-2 text-center">Python</p>
+              <p className="pt-2 pb-4 text-center">Python</p>
               <Link href="/">
-                <p className="text-center py-3 rounded-lg bg-white text-lg font-bold cursor-pointer text-teal-700 ">
+                <p className="py-3 text-lg font-bold text-center text-teal-700 bg-white rounded-lg cursor-pointer ">
                   More
                 </p>
               </Link>

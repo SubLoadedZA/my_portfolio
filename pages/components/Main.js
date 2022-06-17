@@ -39,7 +39,7 @@ function Main() {
                 </a>
               </div>
               <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
-                <a href="https://hashnode.com/@DialaBK">
+                <a href="https://drive.google.com/file/d/1oiSbPPsi9AbiYuiMuhjNd907mLCjk4ND/view?usp=sharing">
                 <BsFillPersonLinesFill />
                 </a>
               </div>

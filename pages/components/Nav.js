@@ -4,14 +4,15 @@ import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import {useRouter} from 'next/router'
+import { useRouter } from "next/router";
 
 function About() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [linkColor, setLinkColor] = useState('#1f2937')
-  const router = useRouter()
+  const router = useRouter();
+
 
   useEffect(()=>{
     if (
@@ -30,6 +31,7 @@ function About() {
     setNav(!nav);
   }
 
+
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -46,7 +48,7 @@ function About() {
     style={{backgroundColor: `${navBg}`}}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl shadow-teal-500 z-[100]"
+          ? "fixed w-full h-20 shadow-xl shadow-teal-500 ease-in duration-300  z-[100]"
           : "fixed w-full h-20 shadow-xl  z-[100]"
       }
     >
@@ -119,27 +121,42 @@ function About() {
           <div className="py-10 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={()=> setNav(false)} className="py-5 text-sm hover:border-b border-teal-200">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-5 text-sm hover:border-b border-teal-200"
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={()=> setNav(false)} className="py-5 text-sm hover:border-b border-teal-200">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-5 text-sm hover:border-b border-teal-200"
+                >
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={()=> setNav(false)} className="py-5 text-sm hover:border-b border-teal-200">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-5 text-sm hover:border-b border-teal-200"
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={()=> setNav(false)} className="py-5 text-sm hover:border-b border-teal-200">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-5 text-sm hover:border-b border-teal-200"
+                >
                   Projects
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={()=> setNav(false)} className="py-5 text-sm hover:border-b border-teal-200">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-5 text-sm hover:border-b border-teal-200"
+                >
                   Contact
                 </li>
               </Link>
@@ -150,23 +167,23 @@ function About() {
               </p>
               <div className="flex items-center justify-between my-full w-full sm:w-[80%]">
                 <div className="rounded-full shadow-md shadow-teal-200 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
-                <a href="https://www.linkedin.com/in/dialaabulkhail/">
-                  <FaLinkedinIn />
+                  <a href="https://www.linkedin.com/in/dialaabulkhail/">
+                    <FaLinkedinIn />
                   </a>
                 </div>
                 <div className="rounded-full shadow-md shadow-teal-200 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
-                <a href="https://github.com/dialaabulkhail">
-                  <FaGithub />
+                  <a href="https://github.com/dialaabulkhail">
+                    <FaGithub />
                   </a>
                 </div>
                 <div className="rounded-full shadow-md shadow-teal-200 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
-                <a href="mailto:diala.sh.98@gmail.com">
-                  <AiOutlineMail />
+                  <a href="mailto:diala.sh.98@gmail.com">
+                    <AiOutlineMail />
                   </a>
                 </div>
                 <div className="rounded-full shadow-md shadow-teal-200 p-3 cursor-pointer hover:scale-110 ease-in duration-200">
-                <a href="https://hashnode.com/@DialaBK">
-                  <BsFillPersonLinesFill />
+                  <a href="https://drive.google.com/file/d/1oiSbPPsi9AbiYuiMuhjNd907mLCjk4ND/view?usp=sharing">
+                    <BsFillPersonLinesFill />
                   </a>
                 </div>
               </div>
