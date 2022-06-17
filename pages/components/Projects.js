@@ -43,7 +43,7 @@ function Projects() {
                 Movies Library
               </h3>
               <p className="pb-4 pt-2 text-center">JavaScript</p>
-              <Link href="/Movies">
+              <Link href="/">
                 <p className="text-center py-3 rounded-lg bg-white text-lg font-bold cursor-pointer text-teal-700 ">
                   More
                 </p>

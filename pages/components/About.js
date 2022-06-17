@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 function About() {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -17,16 +15,13 @@ function About() {
             to learn.. Programming!
           </p>
           <p className="py-1">
-            
-            One month is left to complete the intensive Software
+            Six months after Jan,2022 I graduated from the intensive Software
             Development course in Python from Abdul-Aziz Ghurair School Of
-            Advanced Computing (ASAC) that I started in Jan,2022.
-            <p className=" text-teal-500 py-10">Paying great attention to details is the main reason that makes me passionate about front end development.</p>
+            Advanced Computing (ASAC).
           </p>
-          <Link href="/#projects">
           <p className="py-10 underline cursor-pointer">
-            Check out some of my projects..
-          </p></Link>
+            Check out some of my latest projects..
+          </p>
         </div>
         <div>
           <img

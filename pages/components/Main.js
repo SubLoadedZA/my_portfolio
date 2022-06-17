@@ -24,24 +24,16 @@ function Main() {
             </p>
             <div className="flex items-center justify-between max-w-[330px] m-auto p-2">
               <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
-                <a href="https://www.linkedin.com/in/dialaabulkhail/">
                 <FaLinkedinIn />
-                </a>
               </div>
               <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
-                <a href="https://github.com/dialaabulkhail">
                 <FaGithub />
-                </a>
               </div>
               <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
-                <a href="mailto:diala.sh.98@gmail.com">
                 <AiOutlineMail />
-                </a>
               </div>
               <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
-                <a href="https://hashnode.com/@DialaBK">
                 <BsFillPersonLinesFill />
-                </a>
               </div>
             </div>
           </div>
