@@ -21,7 +21,7 @@ function Contact() {
                   width={500}
                   height={300}
                   className="rounded-xl"
-                  src="https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  src="https://img.freepik.com/free-vector/happy-women-sitting-talking-each-other-dialog-psychologist-tablet-flat-illustration_74855-14078.jpg?t=st=1655518257~exp=1655518857~hmac=a0300273195172e7cf2174814efede3112d07709efde352d507adddd596f4c05&w=740"
                 />
               </div>
               <div>
@@ -50,7 +50,7 @@ function Contact() {
                     </a>
                   </div>
                   <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-125">
-                    <a href="https://drive.google.com/file/d/1oiSbPPsi9AbiYuiMuhjNd907mLCjk4ND/view?usp=sharing">
+                    <a href="https://dialabk.hashnode.dev/">
                       <BsFillPersonLinesFill />
                     </a>
                   </div>
@@ -106,8 +106,9 @@ function Contact() {
                     rows="10"
                   ></textarea>
                 </div>
-
+                <Link href="/">
                 <button className="w-full p-3 mt-4">Send Message</button>
+                </Link>
               </form>
             </dev>
           </div>

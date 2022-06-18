@@ -8,7 +8,7 @@ function Skills() {
           Skills
         </h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 ">
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -24,7 +24,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -40,7 +40,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -56,7 +56,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -72,7 +72,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -88,7 +88,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -104,7 +104,24 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  src="
+                  https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"
+                  width="64px"
+                  height="64px"
+                  alt="github"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Next.JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image
@@ -120,7 +137,55 @@ function Skills() {
             </div>
           </div>
 
-          <div className="p-5 duration-200 ease-in rounded-full shadow-xl hover:scale-105">
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  src="https://mpng.subpng.com/20180711/rtc/kisspng-django-web-development-web-framework-python-softwa-django-5b45d913f29027.4888902515313042119936.jpg"
+                  width="110px"
+                  height="70px"
+                  alt="github"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Django</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  src="https://w7.pngwing.com/pngs/134/956/png-transparent-markdown-computer-icons-formatted-text-github-watermark-blue-angle-text.png"
+                  width="64px"
+                  height="64px"
+                  alt="github"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Markdown</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
+            <div className="grid items-center justify-center grid-cols-2 gap-4">
+              <div className="m-auto">
+                <Image
+                  src="https://img.icons8.com/color/480/tensorflow.png"
+                  width="64px"
+                  height="64px"
+                  alt="github"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Tensorflow</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-5 duration-200 ease-in rounded-full shadow-xl ">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
                 <Image

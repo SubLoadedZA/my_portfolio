@@ -1,4 +1,4 @@
-import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -7,39 +7,37 @@ function Main() {
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase taxt-sm tracking-widest text-gray-400 py-5 ">
-            Learn More About Me!
-          </p>
+
           <h1>
-            Hey, I'm <span className="text-gray-700 animate-pulse"> Diala</span>
+            Hi, I'm <span className="text-gray-700 animate-pulse"> Diala</span>
             .
           </h1>
-          <div className="">
-            <h2 className="uppercase py-2 text-gray-500">
-              Full stack software developer
+          <div >
+            <h2 className="py-2 text-gray-500 uppercase">
+            Full stack software developer
             </h2>
-            <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-              I am a full-stack Python developer with a Civil Engineering
-              background.{" "}
+            <p className="py-4 m-auto tracking-widest text-gray-400 uppercase">
+            Learn More About Me!
+              {" "}
             </p>
             <div className="flex items-center justify-between max-w-[330px] m-auto p-2">
-              <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
+              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-125">
                 <a href="https://www.linkedin.com/in/dialaabulkhail/">
                 <FaLinkedinIn />
                 </a>
               </div>
-              <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
+              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-125">
                 <a href="https://github.com/dialaabulkhail">
                 <FaGithub />
                 </a>
               </div>
-              <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
+              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-125">
                 <a href="mailto:diala.sh.98@gmail.com">
                 <AiOutlineMail />
                 </a>
               </div>
-              <div className="rounded-full shadow-md shadow-teal-200 p-4 cursor-pointer hover:scale-125 ease-in duration-200">
-                <a href="https://drive.google.com/file/d/1oiSbPPsi9AbiYuiMuhjNd907mLCjk4ND/view?usp=sharing">
+              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-125">
+                <a href="https://dialabk.hashnode.dev/">
                 <BsFillPersonLinesFill />
                 </a>
               </div>

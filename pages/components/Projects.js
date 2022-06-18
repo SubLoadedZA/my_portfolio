@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import traffic from '../../public/assets/projects/traffic.gif'
+import movie from '../../public/assets/projects/movie.png'
+import products from '../../public/assets/projects/products.png'
+import canser from '../../public/assets/projects/canser.png'
+
 
 function Projects() {
   return (
@@ -9,10 +14,10 @@ function Projects() {
           Projects
         </h2>
         <div className="grid gap-8 md:grid-cols-2">
-          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl rounded-xl group hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
-              src="/../public/assets/projects/traffic.gif"
+              src={traffic}
               width="550"
               height="300"
               alt="/"
@@ -30,10 +35,10 @@ function Projects() {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:animate-pulse hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
-              src="/../public/assets/projects/movie.png"
+              src={movie}
               width="550"
               height="300"
               alt="/"
@@ -51,10 +56,10 @@ function Projects() {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:animate-pulse hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
-              src="/../public/assets/projects/products.png"
+              src={products}
               width="550"
               height="300"
               alt="/"
@@ -72,10 +77,10 @@ function Projects() {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:bg-gradient-to-r from-teal-600 to-teal-800">
+          <div className="relative flex items-center justify-center w-full h-auto p-4 shadow-xl group rounded-xl hover:animate-pulse hover:bg-gradient-to-r from-teal-600 to-teal-800">
             <Image
               className="group-hover:opacity-10"
-              src="/../public/assets/projects/canser.png"
+              src={canser}
               width="550"
               height="300"
               alt="/"
