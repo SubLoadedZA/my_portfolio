@@ -7,9 +7,8 @@ function Main() {
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center">
         <div>
-
-          <h1>
-            Hi, I'm <span className="text-gray-700 animate-pulse"> Diala</span>
+          <h1 >
+            Hi, I'm Diala
             .
           </h1>
           <div >
