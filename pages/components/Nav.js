@@ -5,32 +5,28 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import logo from "../../public/assets/logo.png";
 
 function About() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3')
-  const [linkColor, setLinkColor] = useState('#1f2937')
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
-
-  useEffect(()=>{
-    if (
-      router.asPath === '/Movies' ||
-      router.asPath === '/AiTraffic'
-    ){
-      setNavBg('#1f2937')
-      setLinkColor('#ecf0f3')
-    } else{
-      setNavBg('#ecf0f3')
-      setLinkColor('#1f2937')
+  useEffect(() => {
+    if (router.asPath === "/Movies" || router.asPath === "/AiTraffic") {
+      setNavBg("#1f2937");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
     }
-  }, [router])
+  }, [router]);
 
   function handleNav() {
     setNav(!nav);
   }
-
 
   useEffect(() => {
     const handleShadow = () => {
@@ -45,7 +41,7 @@ function About() {
 
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl shadow-teal-500 ease-in duration-300  z-[100]"
@@ -53,15 +49,10 @@ function About() {
       }
     >
       <div className="flex items-center justify-between w-full h-full px-10 2xl:px-16">
-        <Image
-          src="/../public/assets/logo.png"
-          alt="logo"
-          width="200"
-          height="100"
-        />
+        <Image src={logo} alt="logo" width="200" height="100" />
 
         <div>
-          <ul style={{color: `${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase border-teal-200 hover:border-b">
                 Home
@@ -105,12 +96,7 @@ function About() {
           }
         >
           <div className="flex items-center justify-between w-full">
-            <Image
-              src="/../public/assets/logo.png"
-              width="200"
-              height="100"
-              alt="logo"
-            />
+            <Image src={logo} width="200" height="100" alt="logo" />
             <div
               onClick={handleNav}
               className="p-2 duration-300 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-110"
